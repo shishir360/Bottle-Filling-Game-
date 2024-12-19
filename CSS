@@ -1,0 +1,50 @@
+/* CSS styles for game elements */
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#game-canvas {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+#controls button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#controls {
+  text-align: center;
+}
+
+#score, #level {
+  margin-top: 10px;
+}
+
+/* Customize game style (optional) */
+/* Example: */
+body {
+  background-color: #f0f0f0;
+}
+
+#controls button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Add more CSS rules for customization */
